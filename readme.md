@@ -24,9 +24,9 @@ Just to practice Javascript and API fundamentals.
 ---
 
 ## ⚒ Tecnologies:
-- Javascript;
-- Node.js;
-- Express.js;
-- Handlebars;
+- Javascript
+- Node.js
+- Express.js
+- Handlebars
 - Bootstrap
-- HTML5 and CSS3;
+- HTML5 and CSS3
