@@ -1,0 +1,28 @@
+<div class="quiz-stage d-flex flex-column align-items-center justify-content-center text-center">
+  <div class="stage-lights"></div>
+
+  <h1 class="quiz-title mb-3">🌍 Guess the Flag</h1>
+
+  <div class="flag-box mb-3">
+    <img src="{{flag}}" alt="Bandeira" class="flag-img">
+  </div>
+
+  <div class="options-grid container">
+    <div class="row">
+      {{#each options}}
+        <div class="col-12 col-md-6 my-2">
+          <button class="btn quiz-option w-100 py-3 fs-5" data-correct="{{this.correct}}">
+            {{this.name}}
+          </button>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+
+  <div id="feedback" class="feedback-text mt-2"></div>
+
+  <button id="redo" class="btn btn-restart mt-2">🔁 New round</button>
+</div>
+
+
+<script src="quiz.js"></script>
